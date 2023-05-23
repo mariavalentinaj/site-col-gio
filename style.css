@@ -4,8 +4,8 @@
 }
 
 .cabeçalho {
-    background-color: #781A5E;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,5 +20,25 @@
     display: inline-block;
     margin: 0 16px;
     font-size: 20px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#A1104F,#7D195C);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
 }
 
